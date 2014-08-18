@@ -1,0 +1,19 @@
+package com.bjsxt.io.convert;
+
+import java.io.UnsupportedEncodingException;
+
+public class ConverDemo01 {
+
+	/**
+	 * @param args
+	 * @throws UnsupportedEncodingException 
+	 */
+	public static void main(String[] args) throws UnsupportedEncodingException {
+		String str ="?й?";
+		byte[] data =str.getBytes();
+		//?????????
+		System.out.println(new String(data,0,3));
+		
+		
+		
+	}
